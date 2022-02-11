@@ -1,0 +1,60 @@
+.signUpContainer{
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+
+    .main_Div{
+        margin: 0 auto;
+        background-color: white;
+        padding: 30px;
+        height: 80%;
+        box-shadow: 10px 10px 5px orange;
+
+        .HEADING{
+            margin: 0 auto;
+
+            .masood{
+                display: flex;
+                justify-content: center;
+            }
+            .text{
+                padding: 6px;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                margin: 0 auto;
+            }
+        }
+        .form{
+            margin: 0 auto;
+            
+            .formGroup{
+                margin: 0 auto;
+    
+                .columns{
+                    width: 100%;   
+                }
+            }
+            .btnSignUp{
+                &:hover {background-color: lightblue;
+                    color: white;}
+            }
+        }
+        .haveAnAccount{
+            justify-content: center;
+            width: 100%;
+            margin: 0 auto;
+     
+            p{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }  
+    }  
+    }
+
+    
+
+
+
+

@@ -1,0 +1,71 @@
+.main_Container{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 110px;
+
+    .Title{
+        margin: 0 auto;
+        align-items: center;
+        // background-color: aqua;
+        justify-content: center;
+        color: white;
+
+        .textDiv{
+            text-align: center;
+            align-items: center;
+            // background-color: red;   
+            // padding: 50px;
+        
+            h6{
+                // text-shadow: 2px 2px 2px  grey;
+                
+                margin-bottom: 30px;
+                span{
+                    color: #ad4b0c;
+                }
+                }
+            h3{
+                letter-spacing: 2px;
+                // margin-bottom: 30px;
+            }
+
+            p{
+                margin-bottom: 30px;
+            }
+
+            Button{
+                background-color: transparent;
+                border-color: white;
+                margin-right: 25px;
+                border-radius: 50px;
+                font-size: 15px;
+            }
+            Button:hover{
+                // border-color: orange;
+                color: white;
+                background-color: #ad4b0c;
+            }
+        }
+
+        .Selenophile{
+            // background-color: red;
+            // justify-content: center;
+            
+        
+
+            
+            .rounded-circle{
+                background-color: white;
+                width: 270px; height: 270px;
+                margin: 0 auto;
+
+                // position: absolute;   
+            }
+    
+        }
+        
+    }
+   
+   
+    
+}

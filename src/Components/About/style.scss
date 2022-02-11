@@ -1,0 +1,89 @@
+.aboutContainer{
+   padding-top: 40px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    // margin-bottom: 1000px;
+
+   
+
+    .main_Div{
+        
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        height: 100%;
+
+        h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+
+        .Row{
+            justify-content: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-bottom: 100px;
+            // height: 80%;
+
+            .column{
+                // width: 40%;
+                img{
+                    display: block;
+                    max-width: 109%;
+                    margin: 0 auto;
+                    margin-left: -12px;
+                    height: 100%;
+                    // margin-right: -12px;
+                }
+            
+            }
+
+            .columns{
+                background-color: white;
+                color: black;
+                box-shadow: 2px 2px 2px 2px gray;
+                // height: 100%;
+               
+
+                
+                p{
+                    padding-top: 20px;
+                    text-align: start;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    // padding: 10px;
+                }
+                .list{
+                    text-align: start;
+                    padding: 10px;
+                    margin-bottom: 40px;
+                    font-size: 15px;
+                }
+
+                Button{
+                    background-color: #131226;
+                    border-color: white;
+                    margin-right: 25px;
+                    border-radius: 50px;
+                    font-size: 13px;
+                    width: fit-content;
+                }
+                Button:hover{
+                    // border-color: orange;
+                    color: white;
+                    background-color: #ad4b0c;
+                }
+            }
+
+
+        }
+
+        
+       
+    }
+    
+
+    
+}

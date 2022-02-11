@@ -1,0 +1,40 @@
+.LogInContainer{
+    height: 100vh;
+    .loginForm{
+        height: 400px;
+        margin: 0 auto;
+        background-color: white;
+        box-shadow: 10px 10px 5px orange;
+        padding: 40px;
+
+        .formGroup{
+            width: 100%;
+            margin: 0 auto;
+
+            .columns{
+                width: 100%;
+                margin: 0 auto;
+
+                
+            }
+        }
+    }
+    .dHaveAnAccount{
+       background-color: white;
+       box-shadow: 10px 10px 5px orange;
+       height: 100px;
+        margin: 0 auto;
+        padding-top: 12px;
+        margin-top: -4px;
+        p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            font-size: 13px;
+            color: black;
+            
+        }
+       
+    }
+}

@@ -1,0 +1,30 @@
+.main_Container{
+    // background-color: orange;
+    color: black;
+    // justify-content: center;
+    margin: 0 auto;
+
+    p{
+        margin-bottom: 50px;
+    }
+
+    .cardsContainer{
+        // background-color: blue;
+        gap: 20px;
+        justify-content: center;
+        margin: 0 auto;
+        // width: 100%;
+    }
+}
+
+.Cards{
+    text-align: start;
+
+    .Image{
+        width: 70px;
+        height: 70px;
+        background-color: lightblue;
+        border: 2px solid gray;
+    }
+
+}

@@ -1,0 +1,64 @@
+.Resume{
+    width: 80%;
+    margin: 0 auto;
+    // background-color: #ad4b0c;
+   
+    .Heading{
+        padding: 10px;
+
+        p{
+            color: black;
+        }
+
+    
+    }
+    
+   
+
+    .ResumeRow{
+        width: 100%;
+        
+        margin: 0 auto;
+
+        // background-color: green;
+        // border: 2px solid gray;
+        
+
+        height: auto;
+        margin-bottom: 200px;
+
+
+        .list-group{
+            background-color: #131226;
+            padding-top: 30px;
+            ul{
+                color: white;
+                text-align: start;
+               
+
+                h4{
+                    margin-bottom: 20px;
+                }
+
+                li{
+                    list-style-type: none;
+                    font-size: 13px;
+                    text-align: start;
+                    // margin: 0 auto;
+                    
+            
+                }
+            }
+            
+            
+        }
+
+        .showData{
+            background-color: white;
+            width: 100%;
+            color: black;
+        }
+
+    }
+
+}
